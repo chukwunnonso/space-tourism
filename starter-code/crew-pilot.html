@@ -8,68 +8,68 @@
   
   <title>Frontend Mentor | Space tourism website</title>
 
-  <link rel="stylesheet" href="crew-engineer.css">
+  <!--External css link below-->
+  <link rel="stylesheet" href="crew.css">
 </head>
 <body>
 
+
  <!-- ----------------------------  Navigation ---------------------------------------------- -->
+ <nav class="navbar">
+    <div class="container">
+      <img src="./assets/shared/logo.svg" alt="This is the page logo">
+  
+      
 
- <nav class="nav">
-  <div class="nav-menu flex-row">
-      <div class="nav-brand">
-          <img class="logo-logo" src="./assets/shared/logo.svg" alt="This is the way we do ittt">
-      </div>
-      <div class="toggle-collapse">
-          <div class="toggle-icons">
-              <i class="fas fa-bars"></i>
-          </div>
-      </div>
-      <div>
-          <ul class="nav-items">
-              <li class="nav-link">
-                  <a href="#">00 Home</a>
-              </li>
-              <li class="nav-link">
-                  <a href="#">01 Destination</a>
-              </li>
-              <li class="nav-link">
-                  <a href="#">02 Crew</a>
-              </li>
-              <li class="nav-link">
-                  <a href="#">04  Technology</a>
-              </li>
-          </ul>
-      </div>
-</nav>
+      <!--This below is the nav-link-->
+      <ul class="nav-items">
+        <li class="nav-link">
+            <a href="#">00 Home</a>
+        </li>
+        <li class="nav-link">
+            <a href="#">01 Destination</a>
+        </li>
+        <li class="nav-link">
+            <a href="#">02 Crew</a>
+        </li>
+        <li class="nav-link">
+            <a href="#">03  Technology</a>
+        </li>
+    </ul>
+    </div>
+  </nav>
 
-<!-- ------------x---------------  Navigation --------------------------x------------------- -->
 
 <!----------------------------- Main Site Section ------------------------------>
 
-<main>
+<main class="container">
+    <h2>02 Meet your crew </h1>
+</main>
 
-<!------------------------ Site Title ---------------------->
 
-<section class="space-section">
-  <div class="container grid">
+<section class="automagically container">
+        <div>
+            <h2>Pilot </h2>
+            <h1><strong> Victor Glover</strong></h1>
+            <p>Pilot on the first operational flight of the SpaceX Crew Dragon to the 
+            International Space Station. Glover is a commander in the U.S. Navy where 
+            he pilots an F/A-18.He was a crew member of Expedition 64, and served as a 
+            station systems flight engineer.</p> 
+        </div>
+    
     <div>
-        <h1>02 Meet your crew</h1>
-        <h2>Pilot </h1>
-        <h1><strong> Victor Glover</strong></h1>
-        <p>Pilot on the first operational flight of the SpaceX Crew Dragon to the 
-          International Space Station. Glover is a commander in the U.S. Navy where 
-          he pilots an F/A-18.He was a crew member of Expedition 64, and served as a 
-          station systems flight engineer.</p> 
-    </div>
-    <!--Below is the explore button-->
-
-    <div class="showcase-btn">
       <img src="./assets/crew/image-victor-glover.png" alt="Pilot's image">      
     </div>
-  </div>
 </section>
-<!------------x----------- Site Title ----------x----------->
 
- 
+<!--let this be the little anchor tags that will lead me to my desired hidden pages-->
+
+<section class="bottom-navigation container">
+    <span><a href="crew-pilot.html" class="bottom-links"></a></span>
+    <span><a href="crew-specialist.html" class="bottom-links"></a></span>
+    <span><a href="crew-commander.html" class="bottom-links"></a></span>
+    <span><a href="crew-engineer.html" class="bottom-links"></a></span>
+</section> 
+
 </body>
 </html>

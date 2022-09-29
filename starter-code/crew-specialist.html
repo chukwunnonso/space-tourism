@@ -1,78 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Space tourism website</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+        
+        <title>Frontend Mentor | Space tourism website</title>
 
-  <!--external css links -->
-  <link rel="stylesheet" href="crew-engineer.css">
+        <!--external css link below -->
+        <link rel="stylesheet" href="crew.css">
 </head>
 <body>
 
 
-   <!-- ----------------------------  Navigation ---------------------------------------------- -->
+            <!-- ----------------------------  Navigation ---------------------------------------------- -->
+            <nav class="navbar">
+                <div class="container">
+                <img src="./assets/shared/logo.svg" alt="This is the page logo">
+            
+                
+            
+                <!--This below is the nav-link-->
+                <ul class="nav-items">
+                    <li class="nav-link">
+                        <a href="#">00 Home</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">01 Destination</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">02 Crew</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">03  Technology</a>
+                    </li>
+                </ul>
+                </div>
+            </nav>
+    
+    <!----------------------------- Main Site Section ------------------------------>
 
-   <nav class="nav">
-    <div class="nav-menu flex-row">
-        <div class="nav-brand">
-            <img class="logo-logo" src="./assets/shared/logo.svg" alt="This is the way we do ittt">
-        </div>
-        <div class="toggle-collapse">
-            <div class="toggle-icons">
-                <i class="fas fa-bars"></i>
-            </div>
-        </div>
+    <main class="container">
+        <h2>02 Meet your crew </h1>
+    </main>
+
+
+    <section class="automagically container">
         <div>
-            <ul class="nav-items">
-                <li class="nav-link">
-                    <a href="#">00 Home</a>
-                </li>
-                <li class="nav-link">
-                    <a href="#">01 Destination</a>
-                </li>
-                <li class="nav-link">
-                    <a href="#">02 Crew</a>
-                </li>
-                <li class="nav-link">
-                    <a href="#">04  Technology</a>
-                </li>
-            </ul>
+            <h2>Mark Shuttleworth</h2>
+                <h1><strong> Mission Specialist</strong></h1>
+                <p>Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind 
+                the Linux-based Ubuntu operating system. Shuttleworth became the first South 
+                African to travel to space as a space tourist.</p>
         </div>
-</nav>
-
-<!-- ------------x---------------  Navigation --------------------------x------------------- -->
-
-<!----------------------------- Main Site Section ------------------------------>
-
-<main>
-
-<!------------------------ Site Title ---------------------->
-<div class="crew-title">
-  <h2>02 Meet your crew </h1>
-</div>
-
-<section class="space-section">
-    <div class="container grid">
-      <div>
-          
-            <h1>Mark Shuttleworth</h1>
-          <h3><strong> Mission Specialist</strong></h3>
-          <p>Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind 
-            the Linux-based Ubuntu operating system. Shuttleworth became the first South 
-            African to travel to space as a space tourist.</p> 
-      </div>
-      <!--Below is the explore button-->
-
-      <div class="showcase-btn">
-        <img src="./assets/crew/image-mark-shuttleworth.png" alt="Shuttleworth's image">      
-      </div>
+    
+    <div>
+      <img src="./assets/crew/image-mark-shuttleworth.png" alt="specialist's image">      
     </div>
 </section>
-<!------------x----------- Site Title ----------x----------->
 
+
+    <!--let this be the little anchor tags that will lead me to my desired hidden pages-->
+
+    <section class="bottom-navigation container">
+        <span><a href="crew-specialist.html" class="bottom-links"></a></span>
+        <span><a href="crew-commander.html" class="bottom-links"></a></span>
+        <span><a href="crew-pilot.html" class="bottom-links"></a></span>
+        <span><a href="crew-engineer.html" class="bottom-links"></a></span>
+    </section> 
 </body>
 </html>
+
+<!--
+
+<section class="automagicaly container">
+            <div>
+                <h2>Mark Shuttleworth</h2>
+                <h1><strong> Mission Specialist</strong></h1>
+                <p>Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind 
+                the Linux-based Ubuntu operating system. Shuttleworth became the first South 
+                African to travel to space as a space tourist.</p> 
+            </div>
+        
+            <div>
+                <img src="./assets/crew/image-mark-shuttleworth.png" alt="Specialist's image">      
+            </div>
+    </section>
+
+
+-->
